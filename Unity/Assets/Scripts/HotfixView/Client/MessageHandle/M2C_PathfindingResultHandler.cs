@@ -1,4 +1,5 @@
-﻿namespace ET.Client
+﻿
+namespace ET.Client
 {
 	[MessageHandler(SceneType.Demo)]
 	public class M2C_PathfindingResultHandler : MessageHandler<Scene, M2C_PathfindingResult>
@@ -8,8 +9,10 @@
 			Unit unit = root.CurrentScene().GetComponent<UnitComponent>().Get(message.Id);
 
 			float speed = unit.GetComponent<NumericComponent>().GetAsFloat(NumericType.Speed);
+            unit.GetComponent<AnimatorComponent>().Play(MotionType.Run);
 
-			await unit.GetComponent<MoveComponent>().MoveToAsync(message.Points, speed);
-		}
+            await unit.GetComponent<MoveComponent>().MoveToAsync(message.Points, speed);
+
+        }
 	}
 }

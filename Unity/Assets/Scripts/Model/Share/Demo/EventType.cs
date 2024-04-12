@@ -32,4 +32,10 @@
     {
         public Unit Unit;
     }
+    public struct Event_PlayAnimation
+    {
+        public Unit Unit;
+        public string StateName;
+
+    }
 }

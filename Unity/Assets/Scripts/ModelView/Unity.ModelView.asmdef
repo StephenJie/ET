@@ -9,7 +9,8 @@
         "Unity.Model",
         "YooAsset",
         "Unity.TextMeshPro",
-        "YIUIFramework"
+        "YIUIFramework",
+        "UnityHFSM"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

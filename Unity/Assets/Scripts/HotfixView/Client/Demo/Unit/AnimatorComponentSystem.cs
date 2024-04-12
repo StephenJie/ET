@@ -98,12 +98,14 @@ namespace ET.Client
 
 		public static void Play(this AnimatorComponent self, MotionType motionType, float motionSpeed = 1f)
 		{
-			if (!self.HasParameter(motionType.ToString()))
+			if (!self.animationClips.ContainsKey(motionType.ToString()))
 			{
-				return;
+                Log.Error($"找不到该动作, {motionType}");
+                return;
 			}
 			self.MotionType = motionType;
 			self.MontionSpeed = motionSpeed;
+			self.Animator.Play(motionType.ToString());
 		}
 
 		public static float AnimationTime(this AnimatorComponent self, MotionType motionType)

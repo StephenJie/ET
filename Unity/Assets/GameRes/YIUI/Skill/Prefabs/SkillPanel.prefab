@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2886276284588667079}
   - component: {fileID: 7674784424841539758}
   - component: {fileID: 5931378058493948654}
-  - component: {fileID: 6979284395745197714}
+  - component: {fileID: 113457688656986062}
   m_Layer: 5
   m_Name: skill0 (3)
   m_TagString: Untagged
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6979284395745197714
+--- !u!114 &113457688656986062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1905353504835973044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342e6d62517e48b99c08f29931bfe0c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5488bc7e88164cdebc6f8149d95a955d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -139,10 +139,10 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2314236700788152897}
-    - {fileID: 4272787936594321051}
-    - {fileID: 4991899385572932611}
-    - {fileID: 8934367791671081177}
-    - {fileID: 6979284395745197714}
+    - {fileID: 6389041321173094496}
+    - {fileID: 8516134888905218604}
+    - {fileID: 3123785858405973035}
+    - {fileID: 113457688656986062}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -156,7 +156,7 @@ MonoBehaviour:
       Data: u_EventClickSkill
     - Name: m_UIEvent
       Entry: 7
-      Data: 0|YIUIFramework.UITaskEventP1`1[[System.Int32, mscorlib]], YIUIFramework
+      Data: 0|YIUIFramework.UIEventP1`1[[System.Int32, mscorlib]], YIUIFramework
     - Name: m_EventName
       Entry: 1
       Data: u_EventClickSkill
@@ -257,7 +257,6 @@ MonoBehaviour:
       Data: 
   m_SkipWhenDrag: 0
   m_Selectable: {fileID: 2886276284588667079}
-  m_BanLayerOption: 1
   m_ExtraParam: 3
 --- !u!1 &1952590266882843567
 GameObject:
@@ -269,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5100041999230980067}
   - component: {fileID: 796107350499966783}
-  - component: {fileID: 2665602333647871768}
+  - component: {fileID: 7701411868712617082}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -304,7 +303,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952590266882843567}
   m_CullTransparentMesh: 1
---- !u!114 &2665602333647871768
+--- !u!114 &7701411868712617082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,8 +333,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280822015
-  m_fontColor: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -404,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095218414992948751}
   - component: {fileID: 5256417741099828043}
-  - component: {fileID: 8787202078167499276}
+  - component: {fileID: 5109639954335529779}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -439,7 +438,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085043403530183748}
   m_CullTransparentMesh: 1
---- !u!114 &8787202078167499276
+--- !u!114 &5109639954335529779
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,8 +468,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280822015
-  m_fontColor: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -613,7 +612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8281533384817571773}
   - component: {fileID: 4388776594113130080}
-  - component: {fileID: 6885111589540592592}
+  - component: {fileID: 1783597657836762214}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -648,7 +647,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4219138672513449765}
   m_CullTransparentMesh: 1
---- !u!114 &6885111589540592592
+--- !u!114 &1783597657836762214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -678,8 +677,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280822015
-  m_fontColor: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -750,7 +749,7 @@ GameObject:
   - component: {fileID: 6154811634598686471}
   - component: {fileID: 7525656907535094788}
   - component: {fileID: 3761055639386275771}
-  - component: {fileID: 4272787936594321051}
+  - component: {fileID: 6389041321173094496}
   m_Layer: 5
   m_Name: skill0
   m_TagString: Untagged
@@ -860,7 +859,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4272787936594321051
+--- !u!114 &6389041321173094496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -869,7 +868,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4241283448450567083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342e6d62517e48b99c08f29931bfe0c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5488bc7e88164cdebc6f8149d95a955d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -877,10 +876,10 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2314236700788152897}
-    - {fileID: 4272787936594321051}
-    - {fileID: 4991899385572932611}
-    - {fileID: 8934367791671081177}
-    - {fileID: 6979284395745197714}
+    - {fileID: 6389041321173094496}
+    - {fileID: 8516134888905218604}
+    - {fileID: 3123785858405973035}
+    - {fileID: 113457688656986062}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -894,7 +893,7 @@ MonoBehaviour:
       Data: u_EventClickSkill
     - Name: m_UIEvent
       Entry: 7
-      Data: 0|YIUIFramework.UITaskEventP1`1[[System.Int32, mscorlib]], YIUIFramework
+      Data: 0|YIUIFramework.UIEventP1`1[[System.Int32, mscorlib]], YIUIFramework
     - Name: m_EventName
       Entry: 1
       Data: u_EventClickSkill
@@ -995,7 +994,6 @@ MonoBehaviour:
       Data: 
   m_SkipWhenDrag: 0
   m_Selectable: {fileID: 6154811634598686471}
-  m_BanLayerOption: 1
   m_ExtraParam: 0
 --- !u!1 &4319622040010224483
 GameObject:
@@ -1197,10 +1195,10 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2314236700788152897}
-    - {fileID: 4272787936594321051}
-    - {fileID: 4991899385572932611}
-    - {fileID: 8934367791671081177}
-    - {fileID: 6979284395745197714}
+    - {fileID: 6389041321173094496}
+    - {fileID: 8516134888905218604}
+    - {fileID: 3123785858405973035}
+    - {fileID: 113457688656986062}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -1228,7 +1226,7 @@ MonoBehaviour:
       Data: u_EventClickSkill
     - Name: $v
       Entry: 7
-      Data: 2|YIUIFramework.UITaskEventP1`1[[System.Int32, mscorlib]], YIUIFramework
+      Data: 2|YIUIFramework.UIEventP1`1[[System.Int32, mscorlib]], YIUIFramework
     - Name: m_EventName
       Entry: 1
       Data: u_EventClickSkill
@@ -1421,7 +1419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3860725777373990269}
   - component: {fileID: 7605666605168147370}
-  - component: {fileID: 897857070658476329}
+  - component: {fileID: 398821222045795606}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -1456,7 +1454,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7320437293589889778}
   m_CullTransparentMesh: 1
---- !u!114 &897857070658476329
+--- !u!114 &398821222045795606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1486,8 +1484,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280822015
-  m_fontColor: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1558,7 +1556,7 @@ GameObject:
   - component: {fileID: 6943632753064870786}
   - component: {fileID: 2912320825399718911}
   - component: {fileID: 5250258544994455518}
-  - component: {fileID: 8934367791671081177}
+  - component: {fileID: 3123785858405973035}
   m_Layer: 5
   m_Name: skill0 (2)
   m_TagString: Untagged
@@ -1668,7 +1666,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8934367791671081177
+--- !u!114 &3123785858405973035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1677,7 +1675,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8671167905462697014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342e6d62517e48b99c08f29931bfe0c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5488bc7e88164cdebc6f8149d95a955d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -1685,10 +1683,10 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2314236700788152897}
-    - {fileID: 4272787936594321051}
-    - {fileID: 4991899385572932611}
-    - {fileID: 8934367791671081177}
-    - {fileID: 6979284395745197714}
+    - {fileID: 6389041321173094496}
+    - {fileID: 8516134888905218604}
+    - {fileID: 3123785858405973035}
+    - {fileID: 113457688656986062}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -1702,7 +1700,7 @@ MonoBehaviour:
       Data: u_EventClickSkill
     - Name: m_UIEvent
       Entry: 7
-      Data: 0|YIUIFramework.UITaskEventP1`1[[System.Int32, mscorlib]], YIUIFramework
+      Data: 0|YIUIFramework.UIEventP1`1[[System.Int32, mscorlib]], YIUIFramework
     - Name: m_EventName
       Entry: 1
       Data: u_EventClickSkill
@@ -1803,7 +1801,6 @@ MonoBehaviour:
       Data: 
   m_SkipWhenDrag: 0
   m_Selectable: {fileID: 6943632753064870786}
-  m_BanLayerOption: 1
   m_ExtraParam: 2
 --- !u!1 &8782566941567113515
 GameObject:
@@ -1817,7 +1814,7 @@ GameObject:
   - component: {fileID: 6155626444727049508}
   - component: {fileID: 7140685957335169807}
   - component: {fileID: 3434307987532278215}
-  - component: {fileID: 4991899385572932611}
+  - component: {fileID: 8516134888905218604}
   m_Layer: 5
   m_Name: skill0 (1)
   m_TagString: Untagged
@@ -1927,7 +1924,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4991899385572932611
+--- !u!114 &8516134888905218604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1936,7 +1933,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8782566941567113515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 342e6d62517e48b99c08f29931bfe0c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5488bc7e88164cdebc6f8149d95a955d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -1944,10 +1941,10 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 2314236700788152897}
-    - {fileID: 4272787936594321051}
-    - {fileID: 4991899385572932611}
-    - {fileID: 8934367791671081177}
-    - {fileID: 6979284395745197714}
+    - {fileID: 6389041321173094496}
+    - {fileID: 8516134888905218604}
+    - {fileID: 3123785858405973035}
+    - {fileID: 113457688656986062}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -1961,7 +1958,7 @@ MonoBehaviour:
       Data: u_EventClickSkill
     - Name: m_UIEvent
       Entry: 7
-      Data: 0|YIUIFramework.UITaskEventP1`1[[System.Int32, mscorlib]], YIUIFramework
+      Data: 0|YIUIFramework.UIEventP1`1[[System.Int32, mscorlib]], YIUIFramework
     - Name: m_EventName
       Entry: 1
       Data: u_EventClickSkill
@@ -2062,5 +2059,4 @@ MonoBehaviour:
       Data: 
   m_SkipWhenDrag: 0
   m_Selectable: {fileID: 6155626444727049508}
-  m_BanLayerOption: 1
   m_ExtraParam: 1

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ET.Client;
+using System;
 using System.Collections.Generic;
 using Unity.Mathematics;
 
@@ -183,6 +184,9 @@ namespace ET
             self.SetNextTarget();
 
             self.MoveTimer = self.Root().GetComponent<TimerComponent>().NewFrameTimer(TimerInvokeType.MoveTimer, self);
+
+            Unit unit = self.GetParent<Unit>();
+            unit.GetComponent<FsmComponent>()?.ChangeState(StateTypes.Run.ToString());
         }
 
         private static void SetNextTarget(this MoveComponent self)
@@ -263,6 +267,8 @@ namespace ET
             }
 
             self.MoveFinish(ret);
+
+            self.GetParent<Unit>()?.GetComponent<FsmComponent>()?.ChangeState(StateTypes.Idle.ToString());
         }
 
         private static void MoveFinish(this MoveComponent self, bool ret)
